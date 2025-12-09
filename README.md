@@ -21,8 +21,7 @@ This repository contains stylesheet files (.css) intended to be loaded by Vencor
 
 ## What this repo is
 
-This repository hosts CSS theme files created for users of Vencord who want custom visual styles for Discord. Each stylesheet can change colors, layouts, fonts, and other visual aspects that Vencord exposes to theme CSS.
-
+This repository hosts CSS theme files that I like to use.
 ---
 
 ## Quick install (for users)
