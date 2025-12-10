@@ -53,19 +53,7 @@ If your Vencord installation uses a different theme loader/plugin, follow that l
 
 ---
 
-## File structure & naming
-
-Recommended repository layout:
-
-- themes/
-  - my-theme.css
-  - my-theme/          (optional folder for complex themes)
-    - theme.css
-    - assets/
-    - README.md
-- README.md
-- CONTRIBUTING.md
-- LICENSE
+## Naming
 
 Naming guidance:
 - Use concise, descriptive names (kebab-case preferred), e.g. `midnight-ocean.css`.
@@ -86,13 +74,7 @@ Example:
 
 ---
 
-## Compatibility & notes
-
-- Themes are dependent on Vencord's theme loader and the structure of Discord's DOM. Updates to Vencord or Discord may break styles; please report compatibility issues in an Issue with reproducible steps.
-- Avoid using !important unless necessary — prefer specific selectors to minimize conflicts.
-- Be mindful of accessibility: ensure adequate contrast for text and interactive elements.
-
----
+## Notes
 
 ## Screenshots / previews
 
@@ -120,6 +102,8 @@ This repository does not include a license file yet. If you want permissive reus
 
 ## Reporting issues / requesting features
 
+Please report any issues regarding unmodified themes to the creator of the theme, not to me.
+
 Use the repository's Issues to report broken themes, compatibility problems, or to request theme ideas. When filing an issue, please include:
 - Theme file name (or link)
 - Vencord version and Discord platform (stable / Canary / PTB)
@@ -136,4 +120,4 @@ Thanks to all contributors and theme designers. If you publish a theme derived f
 
 ## Contact
 
-If you want me to help add this README to the repository or create a CONTRIBUTING.md or LICENSE file, tell me and I can draft or push the files for you.
+If you want me to help add this README to the repository or create a CONTRIBUTING.md or LICENSE file, tell me, and I can draft or push the files for you.
